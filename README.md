@@ -1,4 +1,4 @@
-<img src="source/icons/128.png" width="64" height="64" alt="随页汇率图标">
+<img src="icons/128.png" width="64" height="64" alt="随页汇率图标">
 
 # 随页汇率
 
