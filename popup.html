@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>随页汇率</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><img src="icons/48.png" width="36" height="36" alt=""><h1>随页汇率</h1><label class="switch"><input id="enabled" type="checkbox" aria-label="开启网页自动换算"><span></span></label></header>
+<main><section><label for="target">换算为</label><strong id="code">CNY</strong><select id="target" aria-label="目标货币"></select></section>
+<h2>通用符号的来源币种</h2>
+<div class="row"><label for="dollar">$</label><select id="dollar"></select></div>
+<div class="row"><label for="yen">¥ / ￥</label><select id="yen"></select></div>
+</main><footer><span id="status" role="status">正在读取汇率…</span><a href="https://www.exchangerate-api.com" target="_blank" rel="noreferrer">ExchangeRate-API ↗</a></footer>
+<script src="money.js"></script><script src="popup.js"></script></body></html>
